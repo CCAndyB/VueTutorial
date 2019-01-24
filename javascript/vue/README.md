@@ -5,7 +5,8 @@ Official documentation [here](https://min-api.cryptocompare.com/documentation).
 
 ### Using the Cryptocompare API with Vue
 
-## Use the Vue CLI to create a vue project with default setup.
+Use the Vue CLI to create a vue project with default setup.
+
 https://cli.vuejs.org/guide/
 
 After installing vue:
@@ -13,7 +14,7 @@ After installing vue:
 vue create hello-world
 
 ## Modify the generated vue component src/components/Helloworld.vue in script tag to with your API Key instead
-## In order to avoid CORS errors you have to add a online proxy before the address like: https://cors-anywhere.herokuapp.com/ when using headers
+In order to avoid CORS errors you have to add a online proxy before the address like: https://cors-anywhere.herokuapp.com/ when using headers
 ```
 <script>
 const axios = require('axios');
@@ -79,12 +80,11 @@ axios.get(fullURL, {headers: headers}) with
 axios.get("https://min-api.cryptocompare.com/data/price?fsym=BTC&tsyms=USD&api_key=YourAPIKey")
 ```
 ## Type npm run serve into the terminal, then click the link in terminal to open localhost:8080 in a browser.
-```
+
 The response from the cryptocompare api should be displayed.
 
-A more complicated example vue project is in the github repository.
+A slightly more complicated example vue project is in the github repository.
 
 Copy the CCAPIEXample.vue and table.vue files from the repository into your components directory.
 
 Modify App.vue to import CCAPIExample.vue instead of HelloWorld.vue and then do npm run serve to view the output.
-```
