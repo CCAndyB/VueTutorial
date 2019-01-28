@@ -1,4 +1,4 @@
-### Using the Cryptocompare API with Vue
+## Using the Cryptocompare API with Vue
 This is the github repository for the CryptoCompare API Guide. Open the API blog to start.
 
 ## CryptoCompare API Blog
