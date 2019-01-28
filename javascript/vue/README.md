@@ -6,8 +6,9 @@ application.
 
 Open the API blog linked below to start.
 
-# Project Setup
-npm install -g @vue/cli 
+## Project Setup
+npm install -g @vue/cli
+
 npm install -g @vue/cli-service-global
 
 ## CryptoCompare API Blog
