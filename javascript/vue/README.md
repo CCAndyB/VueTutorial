@@ -1,6 +1,6 @@
-## Using the Cryptocompare API with Vue
+## Using the CryptoCompare API with Vue
 This is the github repository for the CryptoCompare API Guide for vue. 
-With this guide you can learn how to make HTTP Requests to the cryptocompare
+With this guide you can learn how to make HTTP Requests to the CryptoCompare
 API using vue and how you can use the response in a simple single page
 application. 
 
