@@ -6,7 +6,7 @@
 <script>
 const axios = require('axios');
 
-var getFullURL = function(url, options){
+const getFullURL = function(url, options){
     const params = [];
     for (let key in options) {
         params.push(`${key}=${options[key]}`);
@@ -14,16 +14,16 @@ var getFullURL = function(url, options){
     return url + '?' + params.join("&");
 }
 
-var apiKey = "YourAPIKey";
+const apiKey = "YourAPIKey";
 
-var baseUrl = "https://min-api.cryptocompare.com/data/price"
+const baseUrl = "https://min-api.cryptocompare.com/data/price"
 
-var options = {
+const options = {
     fsym: "BTC",
     tsyms: "USD"
 };
 
-var fullURL = getFullURL(baseUrl, options);
+const fullURL = getFullURL(baseUrl, options);
 
 
 export default {

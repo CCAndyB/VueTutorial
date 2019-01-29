@@ -45,7 +45,7 @@
 const axios = require("axios");
 import tableComponent from './table'
 
-var getFullURL = function(url, options) {
+const getFullURL = function(url, options) {
   const params = [];
   for (let key in options) {
     params.push(`${key}=${options[key]}`);
@@ -53,20 +53,20 @@ var getFullURL = function(url, options) {
   return url + "?" + params.join("&");
 };
 
-var apiKey = "";
+const apiKey = "";
 
-var baseUrl = "https://cors-anywhere.herokuapp.com/https://min-api.cryptocompare.com/data/pricemultifull";
+const baseUrl = "https://min-api.cryptocompare.com/data/pricemultifull";
 
-var options = {
+const options = {
   fsyms: "BTC",
   tsyms: "USD,EUR"
 };
 
-var headers = {
+const headers = {
   "Authorization": "Apikey " + apiKey 
 };
 
-var fullURL = getFullURL(baseUrl, options);
+const fullURL = getFullURL(baseUrl, options);
 
 export default {
   name: "HelloWorld",
