@@ -12,7 +12,7 @@ npm install -g @vue/cli
 npm install -g @vue/cli-service-global
 
 ## CryptoCompare API Blog
-https://medium.com/p/3170e9003a38/edit
+https://blog.cryptocompare.com/guide-to-using-the-cryptocompare-api-with-vue-js-3170e9003a38
 
 ## Helpful Links
 

@@ -15,14 +15,14 @@ const getFullURL = function(url, options){
 }
 
 const apiKey = "YourAPIKey";
-
 const baseUrl = "https://min-api.cryptocompare.com/data/price"
-
 const options = {
     fsym: "BTC",
     tsyms: "USD"
 };
-
+const headers = {
+  authorization: "Apikey " + apiKey
+};
 const fullURL = getFullURL(baseUrl, options);
 
 
